@@ -10,8 +10,7 @@ int main(int argc, char *argv[]) {
     int quantity = 1;
     int elements = SIZE;
 
-
-   if (argc > 1)
+    if (argc > 1)
         quantity = atoi(argv[1]);
         
     if (argc > 2)
@@ -26,7 +25,7 @@ int main(int argc, char *argv[]) {
             a[i] = i;
 
         for (int i = 0; i < elements; i++)
-            swap(a[i], a[rand() % elements]);
+            swap(a[i], a[srand() % elements]);
         for (int i = 0; i < elements; ++i) {
             cout << a[i] << ' ';
         }
