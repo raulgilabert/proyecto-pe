@@ -9,7 +9,10 @@ for i in range(0, size):
     list.append(i)
 
 for i in range(0, size):
-    list[i] = list[random.randint(0, 99)]
+    aux = list[i]
+    num = random.randint(0, size - 1)
+    list[i] = list[num]
+    list[num] = aux
 
 print(size)
 for i in range(0, size):
