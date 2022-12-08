@@ -157,77 +157,77 @@ sd(xTerm$`TEMPS(micro)`)
 sd(Alacritty$`TEMPS(micro)`)
 
 #Comparacio mitjana nKitty amb les demes
-t.test(nKitty$`TEMPS(micro)`,nAlacritty$`TEMPS(micro)`,var.equal=T)
-t.test(nKitty$`TEMPS(micro)`,nTerm$`TEMPS(micro)`,var.equal=T)
-t.test(nKitty$`TEMPS(micro)`,nXTerm$`TEMPS(micro)`,var.equal=T)
-t.test(nKitty$`TEMPS(micro)`,nKons$`TEMPS(micro)`,var.equal=T)
+t.test(nKitty$`TEMPS(micro)`,nAlacritty$`TEMPS(micro)`,var.equal=F)
+t.test(nKitty$`TEMPS(micro)`,nTerm$`TEMPS(micro)`,var.equal=F)
+t.test(nKitty$`TEMPS(micro)`,nXTerm$`TEMPS(micro)`,var.equal=F)
+t.test(nKitty$`TEMPS(micro)`,nKons$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana nAlacritty amb les demes
-t.test(nAlacritty$`TEMPS(micro)`,nTerm$`TEMPS(micro)`,var.equal=T)
-t.test(nAlacritty$`TEMPS(micro)`,nXTerm$`TEMPS(micro)`,var.equal=T)
-t.test(nAlacritty$`TEMPS(micro)`,nKons$`TEMPS(micro)`,var.equal=T)
+t.test(nAlacritty$`TEMPS(micro)`,nTerm$`TEMPS(micro)`,var.equal=F)
+t.test(nAlacritty$`TEMPS(micro)`,nXTerm$`TEMPS(micro)`,var.equal=F)
+t.test(nAlacritty$`TEMPS(micro)`,nKons$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana nKonsole amb les demes
-t.test(nKons$`TEMPS(micro)`,nTerm$`TEMPS(micro)`,var.equal=T)
-t.test(nKons$`TEMPS(micro)`,nXTerm$`TEMPS(micro)`,var.equal=T)
+t.test(nKons$`TEMPS(micro)`,nTerm$`TEMPS(micro)`,var.equal=F)
+t.test(nKons$`TEMPS(micro)`,nXTerm$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana nXTerm amb les demes
-t.test(nXTerm$`TEMPS(micro)`,nTerm$`TEMPS(micro)`,var.equal=T)
+t.test(nXTerm$`TEMPS(micro)`,nTerm$`TEMPS(micro)`,var.equal=F)
 
 
 #Comparacio mitjana n^2Kitty amb les demes
-t.test(n2Kitty$`TEMPS(micro)`,n2Alacritty$`TEMPS(micro)`,var.equal=T)
-t.test(n2Kitty$`TEMPS(micro)`,n2Term$`TEMPS(micro)`,var.equal=T)
-t.test(n2Kitty$`TEMPS(micro)`,n2XTerm$`TEMPS(micro)`,var.equal=T)
-t.test(n2Kitty$`TEMPS(micro)`,n2Kons$`TEMPS(micro)`,var.equal=T)
+t.test(n2Kitty$`TEMPS(micro)`,n2Alacritty$`TEMPS(micro)`,var.equal=F)
+t.test(n2Kitty$`TEMPS(micro)`,n2Term$`TEMPS(micro)`,var.equal=F)
+t.test(n2Kitty$`TEMPS(micro)`,n2XTerm$`TEMPS(micro)`,var.equal=F)
+t.test(n2Kitty$`TEMPS(micro)`,n2Kons$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana n^2Alacritty amb les demes
-t.test(n2Alacritty$`TEMPS(micro)`,n2Term$`TEMPS(micro)`,var.equal=T)
-t.test(n2Alacritty$`TEMPS(micro)`,n2XTerm$`TEMPS(micro)`,var.equal=T)
-t.test(n2Alacritty$`TEMPS(micro)`,n2Kons$`TEMPS(micro)`,var.equal=T)
+t.test(n2Alacritty$`TEMPS(micro)`,n2Term$`TEMPS(micro)`,var.equal=F)
+t.test(n2Alacritty$`TEMPS(micro)`,n2XTerm$`TEMPS(micro)`,var.equal=F)
+t.test(n2Alacritty$`TEMPS(micro)`,n2Kons$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana n^2Konsole amb les demes
-t.test(n2Kons$`TEMPS(micro)`,n2Term$`TEMPS(micro)`,var.equal=T)
-t.test(n2Kons$`TEMPS(micro)`,n2XTerm$`TEMPS(micro)`,var.equal=T)
+t.test(n2Kons$`TEMPS(micro)`,n2Term$`TEMPS(micro)`,var.equal=F)
+t.test(n2Kons$`TEMPS(micro)`,n2XTerm$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana n^2XTerm amb les demes
-t.test(n2XTerm$`TEMPS(micro)`,n2Term$`TEMPS(micro)`,var.equal=T)
+t.test(n2XTerm$`TEMPS(micro)`,n2Term$`TEMPS(micro)`,var.equal=F)
 
 
 #Comparacio mitjana n^3Kitty amb les demes
-t.test(n3Kitty$`TEMPS(micro)`,n3Alacritty$`TEMPS(micro)`,var.equal=T)
-t.test(n3Kitty$`TEMPS(micro)`,n3Term$`TEMPS(micro)`,var.equal=T)
-t.test(n3Kitty$`TEMPS(micro)`,n3XTerm$`TEMPS(micro)`,var.equal=T)
-t.test(n3Kitty$`TEMPS(micro)`,n3Kons$`TEMPS(micro)`,var.equal=T)
+t.test(n3Kitty$`TEMPS(micro)`,n3Alacritty$`TEMPS(micro)`,var.equal=F)
+t.test(n3Kitty$`TEMPS(micro)`,n3Term$`TEMPS(micro)`,var.equal=F)
+t.test(n3Kitty$`TEMPS(micro)`,n3XTerm$`TEMPS(micro)`,var.equal=F)
+t.test(n3Kitty$`TEMPS(micro)`,n3Kons$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana n^3Alacritty amb les demes
-t.test(n3Alacritty$`TEMPS(micro)`,n3Term$`TEMPS(micro)`,var.equal=T)
-t.test(n3Alacritty$`TEMPS(micro)`,n3XTerm$`TEMPS(micro)`,var.equal=T)
-t.test(n3Alacritty$`TEMPS(micro)`,n3Kons$`TEMPS(micro)`,var.equal=T)
+t.test(n3Alacritty$`TEMPS(micro)`,n3Term$`TEMPS(micro)`,var.equal=F)
+t.test(n3Alacritty$`TEMPS(micro)`,n3XTerm$`TEMPS(micro)`,var.equal=F)
+t.test(n3Alacritty$`TEMPS(micro)`,n3Kons$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana n^3Konsole amb les demes
-t.test(n3Kons$`TEMPS(micro)`,n3Term$`TEMPS(micro)`,var.equal=T)
-t.test(n3Kons$`TEMPS(micro)`,n3XTerm$`TEMPS(micro)`,var.equal=T)
+t.test(n3Kons$`TEMPS(micro)`,n3Term$`TEMPS(micro)`,var.equal=F)
+t.test(n3Kons$`TEMPS(micro)`,n3XTerm$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana n^3XTerm amb les demes
-t.test(n3XTerm$`TEMPS(micro)`,n3Term$`TEMPS(micro)`,var.equal=T)
+t.test(n3XTerm$`TEMPS(micro)`,n3Term$`TEMPS(micro)`,var.equal=F)
 
 
 #Comparacio mitjana n·logn Kitty amb les demes
-t.test(nLognKitty$`TEMPS(micro)`,nLognAlacritty$`TEMPS(micro)`,var.equal=T)
-t.test(nLognKitty$`TEMPS(micro)`,nLognTerm$`TEMPS(micro)`,var.equal=T)
-t.test(nLognKitty$`TEMPS(micro)`,nLognXTerm$`TEMPS(micro)`,var.equal=T)
-t.test(nLognKitty$`TEMPS(micro)`,nLognKons$`TEMPS(micro)`,var.equal=T)
+t.test(nLognKitty$`TEMPS(micro)`,nLognAlacritty$`TEMPS(micro)`,var.equal=F)
+t.test(nLognKitty$`TEMPS(micro)`,nLognTerm$`TEMPS(micro)`,var.equal=F)
+t.test(nLognKitty$`TEMPS(micro)`,nLognXTerm$`TEMPS(micro)`,var.equal=F)
+t.test(nLognKitty$`TEMPS(micro)`,nLognKons$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana n·logn Alacritty amb les demes
-t.test(nLognAlacritty$`TEMPS(micro)`,nLognTerm$`TEMPS(micro)`,var.equal=T)
-t.test(nLognAlacritty$`TEMPS(micro)`,nLognXTerm$`TEMPS(micro)`,var.equal=T)
-t.test(nLognAlacritty$`TEMPS(micro)`,nLognKons$`TEMPS(micro)`,var.equal=T)
+t.test(nLognAlacritty$`TEMPS(micro)`,nLognTerm$`TEMPS(micro)`,var.equal=F)
+t.test(nLognAlacritty$`TEMPS(micro)`,nLognXTerm$`TEMPS(micro)`,var.equal=F)
+t.test(nLognAlacritty$`TEMPS(micro)`,nLognKons$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana n·logn Konsole amb les demes
-t.test(nLognKons$`TEMPS(micro)`,nLognTerm$`TEMPS(micro)`,var.equal=T)
-t.test(nLognKons$`TEMPS(micro)`,nLognXTerm$`TEMPS(micro)`,var.equal=T)
+t.test(nLognKons$`TEMPS(micro)`,nLognTerm$`TEMPS(micro)`,var.equal=F)
+t.test(nLognKons$`TEMPS(micro)`,nLognXTerm$`TEMPS(micro)`,var.equal=F)
 
 #Comparacio mitjana n·logn XTerm amb les demes
-t.test(nLognXTerm$`TEMPS(micro)`,nLognTerm$`TEMPS(micro)`,var.equal=T)
+t.test(nLognXTerm$`TEMPS(micro)`,nLognTerm$`TEMPS(micro)`,var.equal=F)
 
