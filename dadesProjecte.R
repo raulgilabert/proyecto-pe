@@ -4,6 +4,7 @@
 #install.packages("mvtnorm")
 library(googlesheets4)
 library(googledrive)
+#instalar compilador gfortran
 library(emmeans)
 library(ggplot2)
 
